@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "todo": "lorem wdwd wfwd wwd",
+    "comleted": true
+  },
+  {
+    "id": 2,
+    "todo": "qwerty is opunir",
+    "comleted": false
+  },
+  {
+    "id": 3,
+    "todo": "salam me",
+    "comleted": true
+  },
+  {
+    "id": 4,
+    "todo": "kuku epta",
+    "comleted": false
+  }
+]

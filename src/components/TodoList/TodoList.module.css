@@ -1,0 +1,21 @@
+.li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid rgb(216, 180, 176);
+  border-radius: 15px;
+  gap: 20px;
+  width: 600px;
+  background-color: beige;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.list {
+  padding-left: 60px;
+}
+.div {
+  padding: 20px;
+  margin-top: 40px;
+  background-color: rgb(171, 237, 237);
+  border-radius: 15px;
+}

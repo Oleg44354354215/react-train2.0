@@ -1,15 +1,10 @@
-// import React from "react";
 import styles from "./Profile.module.css";
-
-const Profile = ({username,tag,location,avatar,stats}) => {
+const Profile = ({ data }) => {
+  const { username, tag, location, avatar, stats } = data;
   return (
     <div className={styles.profile}>
       <div className={styles.subs}>
-        <img
-          src={avatar}
-          alt="User avatar"
-          className={styles.avatarim}
-        />
+        <img src={avatar} alt="User avatar" className={styles.avatarim} />
         <p className={styles.username}>{username}</p>
         <p className={styles.tag}>@{tag}</p>
         <p className={styles.location}>{location}</p>
@@ -32,4 +27,5 @@ const Profile = ({username,tag,location,avatar,stats}) => {
     </div>
   );
 };
+
 export default Profile;

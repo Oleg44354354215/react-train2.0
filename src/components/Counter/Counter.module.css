@@ -1,0 +1,20 @@
+.cont {
+  background-color: rgb(195, 166, 128);
+  width: 700px;
+  height: 200px;
+  border-radius: 30px;
+}
+.h {
+}
+.conta {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.but {
+  background-color: rgb(179, 237, 237);
+  padding: 20px;
+  margin-right: 5px;
+  border: 1px solid navy;
+}
